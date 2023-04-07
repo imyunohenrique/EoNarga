@@ -1,0 +1,50 @@
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    margin: 0px;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    text-transform: uppercase;
+    margin-left: 90px auto;
+    margin-right: 90px auto;
+}
+.myButton {
+	box-shadow:inset 0px 0px 15px 3px #f09ea2;
+	background:linear-gradient(to bottom, #e0003f 5%, #9c4646 100%);
+	background-color:#e0003f;
+	border-radius:17px;
+	border:1px solid #944d5b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #662938;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9c4646 5%, #e0003f 100%);
+	background-color:#9c4646;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.imagembraba{
+    margin: 1px 4px 0 0;
+    padding: 3px; /* Aqui Você pode aumentar ou diminuir o tamanho da borda pode colocar 3px, 5px, 6px etc */
+    border: 1px solid #944d5b;
+	object-fit: cover;
+}
